@@ -5,17 +5,21 @@ import java.awt.*;
 
 
 public class GameTile {
+    public static final int TILE_SIZE=100;
     private int row;
     private int col;
+    private int margin;
     private int tileSize;
-     GameTile(int row, int col ) {
+     public GameTile(int row, int col ) {
 
         this.row = row;
         this.col=col;
-        this.tileSize = 100;
+
     }
 
         public void render(Graphics g) {
+            int tileX= this.col* TILE_SIZE;
+            int tileY = this.row * TILE_SIZE;
             Pink p1 = new Pink(0,0);
             p1.render(g);
 
