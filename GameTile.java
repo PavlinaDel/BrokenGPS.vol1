@@ -121,6 +121,35 @@ public class GameTile {
             Yellow y1 = new Yellow(7,0);
             y1.render(g);
 
+            Green g1 = new Green(0,6);
+            g1.render(g);
+            Green g2 = new Green(1,1);
+            g2.render(g);
+            Green g3 = new Green(2,5);
+            g3.render(g);
+            Green g4 = new Green(3,1);
+            g4.render(g);
+            Green g5 = new Green(3,3);
+            g5.render(g);
+            Green g6 = new Green(4,6);
+            g6.render(g);
+            Green g7 = new Green(5,2);
+            g7.render(g);
+            Green g8 = new Green(7,6);
+            g8.render(g);
+
+            Blue b1 = new Blue(1,4);
+            b1.render(g);
+            Blue b2 = new Blue(2,7);
+            b2.render(g);
+            Blue b3 = new Blue(5,0);
+            b3.render(g);
+            Blue b4 = new Blue(5,7);
+            b4.render(g);
+            Blue b5 = new Blue(6,4);
+            b5.render(g);
+
+
 
 
 

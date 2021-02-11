@@ -19,7 +19,8 @@ public class Yellow {
         int tileX = this.col * this.Size;
         int tileY = this.row * this.Size;
 
-        g.setColor(Color.yellow);
+        Color myYellow = new Color(255,255,224);
+        g.setColor(myYellow);
         g.fillRect(tileX,tileY,this.Size,this.Size);
         g.setColor(Color.BLACK);
         g.drawRect(tileX,tileY,this.Size,this.Size);
